@@ -1,0 +1,20 @@
+@import "../../index.scss";
+
+.section-point {
+  margin: 12px 0;
+  .section-row {
+    @include flexCenter(center, start, row);
+    width: 250px;
+    margin: 4px 0;
+    font-size: 13px;
+    @media (max-width: 450px) {
+      font-size: 12px;
+    }
+    & > * {
+      flex: 0.5;
+    }
+    b {
+      text-transform: capitalize;
+    }
+  }
+}

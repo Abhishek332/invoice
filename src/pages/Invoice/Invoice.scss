@@ -1,0 +1,48 @@
+@import "../../index.scss";
+
+.invoice-container {
+  padding: 10px 5%;
+  width: 1096px;
+  margin: auto;
+  .company {
+    font-size: 40px;
+  }
+  .heading {
+    color: $primary;
+    margin: 4px 0;
+    text-transform: uppercase;
+  }
+  section {
+    @include flexCenter(space-between, start, row);
+    margin: 25px 0;
+    .term {
+      ul {
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+    p {
+      font-weight: bolder;
+      width: 205px;
+      padding: 10px 0;
+      border-top: 1px solid $primary;
+      text-align: center;
+      word-spacing: 50px;
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+  footer {
+    margin-top: 30px;
+    float: right;
+    p {
+      font-weight: bolder;
+      width: 205px;
+      padding: 15px 0;
+      border-top: 1px dotted $primary;
+      text-align: center;
+      word-spacing: 10px;
+    }
+  }
+}

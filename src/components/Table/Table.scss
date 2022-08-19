@@ -1,0 +1,26 @@
+@import "../../index.scss";
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: $primary;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
