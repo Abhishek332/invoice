@@ -26,3 +26,14 @@ $border: #f1f4f8;
 .flex-col-center {
   @include flexCenter(start, center, column);
 }
+
+button {
+  padding: 5px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: $primary;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px 45%;
+}

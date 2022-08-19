@@ -11,7 +11,7 @@ const Invoice = ({ invoiceHeader, paymentMethod, invoiceTo, invoiceRows }) => {
   };
 
   return (
-    <main className="invoice-container">
+    <main id="invoice-container">
       <section>
         <h1 className="heading company">Company</h1>
         <div className="right">
